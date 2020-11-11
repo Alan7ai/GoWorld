@@ -75,7 +75,7 @@ public class GoNetServer extends Frame implements ActionListener {
         }
 
         //Create components and lay out them.
-        serverLabel = new JLabel("Server Port NO.: ");
+        serverLabel = new JLabel("Server Port NO.: ")
         serverLabel.setFont(GoFont.labelFont);
       
         serverText = new GoPortTextField(portString, 8);
